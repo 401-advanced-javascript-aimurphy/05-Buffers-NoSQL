@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/05-Buffers-NoSQL.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/05-Buffers-NoSQL)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
