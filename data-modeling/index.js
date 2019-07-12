@@ -8,7 +8,8 @@ const mongoose = require('mongoose');
 const MONGOOSE_URI = 'mongodb://localhost:27017/class05';
 
 // Connect
-mongoose.connect(...);
+// var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true});
 
 // Do some work
 
