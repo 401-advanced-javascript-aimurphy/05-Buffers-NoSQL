@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 
 // What fields and constraints do we want?
 const categories = mongoose.Schema({
-  id: { required: true },
-  name: { required: true },
+  name: { type: String, required: true },
+  description: { type: String, required: true },
 });
 
 // Do we need to run any lifecycle hooks/middleware?

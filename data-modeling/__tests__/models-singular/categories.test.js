@@ -1,3 +1,5 @@
+'use strict';
+
 // const Categories = require('../../models-singular/categories.js');
 // let categories = new Categories();
 
@@ -24,7 +26,7 @@
 
 // });
 
-const Categories = require('../../models-modular/categories/categories.js');
+const Categories = require('../../models-singular/categories.js');
 let categories = new Categories();
 
 const supergoose = require('../supergoose.js');
