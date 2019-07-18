@@ -2,10 +2,9 @@
 
 const mongoose = require('mongoose');
 
-const categories = mongoose.Schema({
+const product = mongoose.Schema({
   name: { type: String, required: true },
   description: { type: String, required: true },
 });
 
-module.exports = mongoose.model('categories', categories);
-
+module.exports = mongoose.model('product', product);
