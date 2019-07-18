@@ -2,6 +2,9 @@
 
 // Where is our schema defined?
 // How do we get it in here so we can run methods on it?
+const Model = require('./categories-schema.js')
+
+
 
 class Categories {
 
@@ -9,6 +12,9 @@ class Categories {
   }
 
   get(_id) {
+    if(_id){
+      return schema.find({_id});
+    }
     // Call the appropriate mongoose method to get
     // one or more records
     // If 1, return it as a plain object
@@ -18,6 +24,9 @@ class Categories {
 
   create(record) {
     // Call the appropriate mongoose method to create a new record
+    new category = new schema(record);
+    category.save();
+
   }
 
   update(_id, record) {
